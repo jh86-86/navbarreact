@@ -1,17 +1,3 @@
-/* makes the buttons Transparent */
-button {
-  background-color: Transparent;
-  background-repeat:no-repeat;
-  border: none;
-  cursor:pointer;
-  overflow: hidden;
-  outline:none;
-  color: aliceblue;
-  padding-left:30px ;
-  height: 50px;
-  margin:0px;
-}
-
 /* makes it invisible */
 .invisible{
   display:none;
@@ -29,19 +15,3 @@ styling for each Display hook which is a page */
 }
 
 
-/* makes the navbar look like a navbar,arranges the buttons in a row */
-.navbar{
-  display: flex;
-  flex-direction: row;
-  background-color: black;
-  padding: 0px;
-  margin: 0px;
-}
-
-/* the p tags were making a weird white space between navbar and page so i set it to 
-remove the space */
-p{
-  margin:0px;
-  padding:0px;
-  border:0px;
-}
